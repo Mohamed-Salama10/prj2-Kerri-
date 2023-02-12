@@ -1,0 +1,722 @@
+html {
+  --main-color: rgb(230, 95, 120);
+}
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+/*General classes to be used*/
+
+.w-30 {
+  width: 30%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+/* Start of header styling*/
+
+header {
+  background-image: url(../Images/header-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+nav span {
+  color: var(--main-color);
+}
+
+nav ul li {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title::after {
+  content: "|";
+  display: block;
+  animation: typing infinite 15s;
+  -webkit-animation: typing infinite 15s;
+  font-size: 60px;
+  margin-top: 2rem;
+}
+
+@keyframes typing {
+  /*The animation for text slider*/
+  0% {
+    content: "|";
+  }
+  1% {
+    content: "I|";
+  }
+  1.5% {
+    content: "I'|";
+  }
+  2% {
+    content: "I'M|";
+  }
+  2.5% {
+    content: "I'M G|";
+  }
+  3% {
+    content: "I'M GR|";
+  }
+  3.5% {
+    content: "I'M GRA|";
+  }
+  4% {
+    content: "I'M GRAP|";
+  }
+  4.5% {
+    content: "I'M GRAPH|";
+  }
+  5% {
+    content: "I'M GRAPHI|";
+  }
+  5.5% {
+    content: "I'M GRAPHIC|";
+  }
+  6% {
+    content: "I'M GRAPHIC|";
+  }
+  6.5% {
+    content: "I'M GRAPHIC |";
+  }
+
+  9.5% {
+    content: "I'M GRAPHIC D|";
+  }
+  10% {
+    content: "I'M GRAPHIC DE|";
+  }
+  10.5% {
+    content: "I'M GRAPHIC DES|";
+  }
+  11% {
+    content: "I'M GRAPHIC DESI|";
+  }
+  11.5% {
+    content: "I'M GRAPHIC DESIG|";
+  }
+  12% {
+    content: "I'M GRAPHIC DESIGN|";
+  }
+  12.5% {
+    content: "I'M GRAPHIC DESIGNE|";
+  }
+  13% {
+    content: "I'M GRAPHIC DESIGNER|";
+  }
+  13.5% {
+    content: "I'M GRAPHIC DESIGNE|";
+  }
+  14% {
+    content: "I'M GRAPHIC DESIGN|";
+  }
+  14.5% {
+    content: "I'M GRAPHIC DESIG|";
+  }
+  15% {
+    content: "I'M GRAPHIC DESI||";
+  }
+
+  15.5% {
+    content: "I'M GRAPHIC DES|";
+  }
+  16% {
+    content: "I'M GRAPHIC DE|";
+  }
+  16.5% {
+    content: "I'M GRAPHIC D|";
+  }
+  17% {
+    content: "I'M GRAPHIC |";
+  }
+  17.5% {
+    content: "I'M GRAPHIC|";
+  }
+  18% {
+    content: "I'M GRAPH|";
+  }
+  18.5% {
+    content: "I'M GRAP|";
+  }
+  19% {
+    content: "I'M GRA|";
+  }
+  19.5% {
+    content: "I'M GR|";
+  }
+  20% {
+    content: "I'M G|";
+  }
+  20.5% {
+    content: "I'M |";
+  }
+  21% {
+    content: "I'M |";
+  }
+  21.5% {
+    content: "I'M|";
+  }
+
+  24.5% {
+    content: "I'|";
+  }
+  25.5% {
+    content: "I|";
+  }
+  26% {
+    content: "|";
+  }
+  26.5% {
+    content: "I|";
+  }
+  27% {
+    content: "I'|";
+  }
+  27.5% {
+    content: "I'M|";
+  }
+  28% {
+    content: "I'M|";
+  }
+  28.5% {
+    content: "I'M |";
+  }
+  29% {
+    content: "I'M W|";
+  }
+  29.5% {
+    content: "I'M WE|";
+  }
+  30% {
+    content: "I'M WEB|";
+  }
+  30.5% {
+    content: "I'M WEB |";
+  }
+  31% {
+    content: "I'M WEB D|";
+  }
+
+  31.5% {
+    content: "I'M WEB DE|";
+  }
+  32% {
+    content: "I'M WEB DEV|";
+  }
+  32.5% {
+    content: "I'M WEB DEVE|";
+  }
+  33% {
+    content: "I'M WEB DEVEL|";
+  }
+  33.5% {
+    content: "I'M WEB DEVELO|";
+  }
+  34% {
+    content: "I'M WEB DEVELOP|";
+  }
+  34.5% {
+    content: "I'M WEB DEVELOPE|";
+  }
+  35% {
+    content: "I'M WEB DEVELOPER|";
+  }
+  35.5% {
+    content: "I'M WEB DEVELOPE|";
+  }
+  36% {
+    content: "I'M WEB DEVELOP|";
+  }
+  36.5% {
+    content: "I'M WEB DEVELO|";
+  }
+  37% {
+    content: "I'M WEB DEVEL|";
+  }
+
+  40% {
+    content: "I'M WEB DEVE|";
+  }
+  40.5% {
+    content: "I'M WEB DEV|";
+  }
+  41% {
+    content: "I'M WEB DE|";
+  }
+  41.5% {
+    content: "I'M WEB D|";
+  }
+  42% {
+    content: "I'M WEB |";
+  }
+  42.5% {
+    content: "I'M WEB|";
+  }
+  43% {
+    content: "I'M WE|";
+  }
+  43.5% {
+    content: "I'M W|";
+  }
+  44% {
+    content: "I'M |";
+  }
+  44.5% {
+    content: "I'M|";
+  }
+  45% {
+    content: "I'|";
+  }
+  45.5% {
+    content: "I|";
+  }
+
+  46% {
+    content: "|";
+  }
+  46.5% {
+    content: "|";
+  }
+  47% {
+    content: "I|";
+  }
+  47.5% {
+    content: "I'|";
+  }
+  48% {
+    content: "I'M|";
+  }
+  48.5% {
+    content: "I'M |";
+  }
+  49% {
+    content: "I'M P|";
+  }
+  49.5% {
+    content: "I'M PH|";
+  }
+  50% {
+    content: "I'M PHO| ";
+  }
+  50.5% {
+    content: "I'M PHOT| ";
+  }
+  51% {
+    content: "I'M PHOTO| ";
+  }
+  51.5% {
+    content: "I'M PHOTOG| ";
+  }
+  52% {
+    content: "I'M PHOTOGR| ";
+  }
+  52.5% {
+    content: "I'M PHOTOGRA|";
+  }
+  53% {
+    content: "I'M PHOTOGRAP|";
+  }
+  53.5% {
+    content: "I'M PHOTOGRAPH|";
+  }
+  54% {
+    content: "I'M PHOTOGRAPHE|";
+  }
+  54.5% {
+    content: "I'M PHOTOGRAPHER|";
+  }
+
+  59% {
+    content: "I'M PHOTOGRAPHER|";
+  }
+  59.5% {
+    content: "I'M PHOTOGRAPHE|";
+  }
+  60% {
+    content: "I'M PHOTOGRAPH|";
+  }
+  60.5% {
+    content: "I'M PHOTOGRAP|";
+  }
+  61% {
+    content: "I'M PHOTOGRA|";
+  }
+  61.5% {
+    content: "I'M PHOTOGR|";
+  }
+  62% {
+    content: "I'M PHOTOG|";
+  }
+  62.5% {
+    content: "I'M PHOTO|";
+  }
+  63% {
+    content: "I'M PHOT|";
+  }
+  63.5% {
+    content: "I'M PHO|";
+  }
+  64% {
+    content: "I'M PHO|";
+  }
+  64.5% {
+    content: "I'M PH|";
+  }
+  65% {
+    content: "FI'M P";
+  }
+  65.5% {
+    content: "I'M |";
+  }
+  67% {
+    content: "I'M|";
+  }
+  67.5% {
+    content: "I'M";
+  }
+  68% {
+    content: "I'|";
+  }
+  68.5% {
+    content: "I|";
+  }
+
+  69% {
+    content: "|";
+  }
+  69.5% {
+    content: "I|";
+  }
+  70% {
+    content: "I'|";
+  }
+  70.5% {
+    content: "I'M|'";
+  }
+  71% {
+    content: "I'M |";
+  }
+  71.5% {
+    content: "I'M K|";
+  }
+  72% {
+    content: "I'M KI|";
+  }
+  72.5% {
+    content: "I'M KIR|";
+  }
+  73% {
+    content: "I'M KIRR|";
+  }
+  73.5% {
+    content: "I'M KIRRI|";
+  }
+  74% {
+    content: "I'M KIRRI|";
+  }
+  74.5% {
+    content: "I'M KIRRI |";
+  }
+  75% {
+    content: "I'M KIRRI D|";
+  }
+  76% {
+    content: "I'M KIRRI DE|";
+  }
+  78% {
+    content: "I'M KIRRI DEO|";
+  }
+  79% {
+    content: "I'M KIRRI DE|";
+  }
+
+  80% {
+    content: "I'M KIRRI D|";
+  }
+  81% {
+    content: "I'M KIRRI |";
+  }
+  82% {
+    content: "I'M KIRRI|";
+  }
+  83% {
+    content: "I'M KIRRI|";
+  }
+  84% {
+    content: "I'M KIRR|";
+  }
+  85% {
+    content: "I'M KIR|";
+  }
+  86% {
+    content: "I'M KI|";
+  }
+  87% {
+    content: "I'M K|";
+  }
+  88% {
+    content: "I'M |";
+  }
+  89% {
+    content: "I'M|";
+  }
+  90% {
+    content: "I'|";
+  }
+  91% {
+    content: "I|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+.gear-icon {
+  background-color: brown;
+  top: 25%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+  margin: 0;
+}
+.water-drops {
+  color: var(--main-color);
+}
+/*#######################################################################################################*/
+/* About me section*/
+
+.about-me {
+  padding: 100px 0px;
+}
+
+.kerri-deo-span {
+  color: var(--main-color);
+}
+
+.p-am {
+  color: dimgrey;
+  font-size: 1.08rem;
+}
+
+.am-icon {
+  color: black;
+  border-color: black;
+  border: solid darkgrey 3px;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.am-icon i {
+  transition: all 0.5s 0.1s;
+  -webkit-transition: all 0.5s 0.1s;
+  -moz-transition: all 0.5s 0.1s;
+  -ms-transition: all 0.5s 0.1s;
+  -o-transition: all 0.5s 0.1s;
+}
+
+.am-icon:hover i {
+  color: var(--main-color);
+}
+
+.am-icon:hover {
+  border-color: var(--main-color);
+}
+
+/*#######################################################################################################*/
+/* Our Services section*/
+
+.our-services {
+  padding: 100px 0px;
+  background-color: #f8f9fa;
+}
+
+.os-content {
+  border: solid 1px rgba(33, 37, 41, 0.1);
+}
+
+.os-content h4::after {
+  content: "";
+  display: block;
+  width: 30%;
+  margin: auto;
+  margin-top: 15px;
+  border-top: solid 3px var(--main-color);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+.os-content h4:hover::after {
+  width: 60%;
+}
+
+.os-content-icon {
+  font-size: 40px;
+  color: var(--main-color);
+}
+
+/*#######################################################################################################*/
+/* avilable freelancer section*/
+
+.af {
+  padding: 70px 0px;
+}
+
+.af-title {
+  font-size: 40px;
+}
+.af-btn {
+  padding: 15px 30px;
+  background-color: var(--main-color);
+  color: white;
+  border: transparent;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+/*#######################################################################################################*/
+/* Our Client section*/
+.oc {
+  padding: 60px 0px;
+  background-color: #f8f9fa;
+}
+
+.sec-title p {
+  font-size: 13px;
+}
+
+.slider {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.slider-icon {
+  color: var(--main-color);
+}
+
+.slider h6 {
+  font-size: 12px;
+}
+.slider-btn button {
+  background-color: var(--main-color) !important;
+}
+
+/*#######################################################################################################*/
+/* Our works*/
+
+.our-works {
+  padding: 60px 0px;
+}
+
+.tabs-button {
+  background-color: var(--main-color) !important;
+  margin-right: 16px;
+}
+
+/*#######################################################################################################*/
+/* Our Blog*/
+.our-blog {
+  padding: 60px 0px;
+  background-color: #f8f9fa;
+}
+
+.span {
+  color: var(--main-color);
+}
+
+.img-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.img-overlay:hover {
+  opacity: 1;
+}
+.overlay-text {
+  transform: translateY(180px);
+  -webkit-transform: translateY(180px);
+  -moz-transform: translateY(180px);
+  -ms-transform: translateY(180px);
+  -o-transform: translateY(180px);
+  transition: all 0.3s 0.3s ease-in-out;
+  -webkit-transition: all 0.3s 0.3s ease-in-out;
+  -moz-transition: all 0.3s 0.3s ease-in-out;
+  -ms-transition: all 0.3s 0.3s ease-in-out;
+  -o-transition: all 0.3s 0.3s ease-in-out;
+}
+
+.img-overlay:hover .overlay-text {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+/*#######################################################################################################*/
+/* Contact us*/
+
+.contact-us {
+  padding: 60px 0px;
+}
+
+.cu {
+  margin-top: 100px;
+}
+
+.cu i{
+
+  color: var(--main-color);
+
+}
+
+textarea{
+  resize: none;
+}
